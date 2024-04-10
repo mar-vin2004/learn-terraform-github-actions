@@ -16,7 +16,7 @@ Os principais conceitos incluem:
 
 1. **Configuração do Terraform Cloud**: Criei um workspace no Terraform Cloud e configurei variáveis de ambiente para autenticar-me com a AWS. Também gerei um token de API do Terraform Cloud para autenticação no GitHub Actions.
 
-   ![Configuração do Terraform Cloud](/assets/Captura de tela de 2024-04-10 10-52-42.png)
+   ![Configuração do Terraform Cloud](assets/Captura de tela de 2024-04-10 10-52-42.png)
 
 2. **Configuração do Repositório GitHub**: Criei um novo repositório a partir do template fornecido no artigo e configurei as secrets necessárias para autenticar-me com o Terraform Cloud.
 
