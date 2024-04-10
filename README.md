@@ -16,7 +16,7 @@ Os principais conceitos incluem:
 
 1. **Configuração do Terraform Cloud**: Criei um workspace no Terraform Cloud e configurei variáveis de ambiente para autenticar-me com a AWS. Também gerei um token de API do Terraform Cloud para autenticação no GitHub Actions.
 
-   ![Configuração do Terraform Cloud](assets/Captura de tela de 2024-04-10 10-52-42.png)
+   ![Configuração do Terraform Cloud](assets/foto1.png)
 
 2. **Configuração do Repositório GitHub**: Criei um novo repositório a partir do template fornecido no artigo e configurei as secrets necessárias para autenticar-me com o Terraform Cloud.
 
@@ -24,15 +24,15 @@ Os principais conceitos incluem:
 
 4. **Criação de Pull Request e Mesclagem**: Criei um novo branch, fiz alterações nos arquivos de configuração e abri um pull request. Isso acionou automaticamente o fluxo de trabalho do GitHub Actions para planificação da infraestrutura.
 
-   ![Criação de Pull Request](link_para_a_imagem)
+   ![Criação de Pull Request](assets/foto2.png)
 
 5. **Verificação da Implantação**: Após mesclar o pull request, verifiquei a execução do fluxo de trabalho do GitHub Actions para aplicação da infraestrutura. Verifiquei também no Terraform Cloud a correta criação dos recursos.
 
-   ![Verificação da Implantação](link_para_a_imagem)
+   ![Verificação da Implantação](assets/foto3.png)
 
 6. **Teste de Acesso à Instância EC2**: Por fim, verifiquei se a instância EC2 provisionada estava acessível publicamente, utilizando o endereço web fornecido pelo Terraform Cloud.
 
-   ![Teste de Acesso à Instância EC2](link_para_a_imagem)
+   ![Teste de Acesso à Instância EC2](assets/foto4.png)
 
 ## Resultados
 
